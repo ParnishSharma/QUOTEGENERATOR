@@ -1,0 +1,6 @@
+.App{
+  box-sizing: content-box;
+  box-shadow: rgba(2, 255,255, 255);
+  min-height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
