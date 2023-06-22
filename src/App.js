@@ -23,16 +23,15 @@ const App = () => {
 
   const { content, author } = quotes;
   return (
+    <>
+   <div class="center-heading">
+<h3>WELCOME TO QUOTE-WORLD</h3></div>
     <div className="box-center">
-      <div className="text">
-        <p className="text">{content}</p>
-      </div>
-      <div className="author">
-        ~{author}
-
-        <button onClick={getNewQuote}>New Quote</button>
-      </div>
-    </div>
+    <p className="quote-content">{content}</p>
+    <span className="quote-author">~ {author}</span><br />
+    <button className="new-quote-button" onClick={getNewQuote}>New Quote</button>
+  </div>
+  </>
   );
 };
 
